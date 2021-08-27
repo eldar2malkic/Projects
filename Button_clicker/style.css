@@ -1,0 +1,110 @@
+ * {
+    margin: 0;
+    padding: 0;
+    }
+.search {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5px;
+    background-color: rgb(190, 190, 190);
+}
+.login {
+    margin: 10px;
+    background-color: rgb(81, 81, 250);
+    color: white;
+    box-shadow: 2px 2px black;
+    padding: 2px 5px;
+}
+#search {
+    margin: 5px;
+    border: 2px solid black;
+    padding: 4px;
+    width: 300px;
+}
+.main {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+}
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+.practitioner {
+    border: 3px solid black;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.programmer {
+    border: 3px solid black;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.define {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+}
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.p-bar {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    flex: 3;
+}
+button {
+    background-color: rgb(228, 180, 48);
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px;
+    margin-top: 20px;
+    padding: 5px;
+}
+.definition {
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    background-color: rgb(128, 168, 17);
+}
+h3 {
+    font-weight: 600;
+    font-style: italic;
+}
+h5 {
+    font-weight: 500;
+}
+.ninja {
+    font-weight: 500;
+    font-style: italic;
+}
+.you {
+    font-weight: 700;
+}
+.col-2-header {
+    font-weight: 500;
+}
+.like_practitioner {
+    padding-left: 20px;
+    padding-right: 20px;
+}

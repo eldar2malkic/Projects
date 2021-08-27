@@ -1,0 +1,51 @@
+img.octocat {
+    height: 200px;
+}
+.container {
+    width: 800px;
+    background-image: url(./arabesque.png);
+    background-color: cyan;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    margin: 30px;
+    border-top: black solid 5px;
+}
+h1 {
+    text-align-last: center;
+    font-size: 60px;
+    color: rgb(0, 0, 0, 0.7);
+}
+.top-bar {
+    height: 200px;
+    width: 420;
+    background-color: hsl(182, 25%, 50%, 0.8);
+    margin: 20px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.middle-bar {
+    height: 200px;
+    width: 420;
+    background-color: rgb(196, 169, 63, 0.8);
+    margin: 20px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bottom-bar {
+    height: 200px;
+    width: 420;
+    background-color: hsl(177, 70%, 41%, 0.8);
+    margin: 20px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+p {
+    text-align: center; 
+    margin-top: 30px;
+}

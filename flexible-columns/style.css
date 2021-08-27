@@ -1,0 +1,19 @@
+* {
+    /* border: 2px solid red; */
+}
+.row {
+    display: flex; 
+    width: 800px;
+}
+.col, .col-2, .col-3 {
+    height: 50px;
+    flex: 1;
+    background-color: rgb(67, 184, 168);
+    margin: 10px;
+}
+.col-2 {
+    flex: 2;
+}
+.col-3 {
+    flex: 3;
+}

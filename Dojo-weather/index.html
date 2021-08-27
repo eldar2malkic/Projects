@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>DojoWeather</h1>
+            <nav>
+                <a href="#" onclick="choseCity()">Burbank</a>
+                <a href="#" onclick="choseCity()">Chicago</a>
+                <a href="#" onclick="choseCity()">Dallas</a>
+            </nav>
+        </div>
+    </header>
+    <div class="main">
+        <div class="row" id="change">
+            <h2>San Jose</h2>
+            <form>
+                <label for="">show temperature in</label>
+                <select name="degrees" id="degree">
+                    <option value="celsius" onselect="convertF()">&#8451</option>
+                    <option value="fahrenheit" onselect="convertC()">&#8457</option>
+                </select>
+            </form>
+        </div>
+        <div class="row">
+            <div class="column">
+                <h3>Today</h3>
+                <img src="./assets/some_rain.png" alt="rainy">
+                <caption>some rain</caption>
+                <div class="row">
+                    <span class="high">24°</span>
+                    <span class="low">18°</span>
+                </div>
+            </div>
+            <div class="column">
+                <h3>Tomorrow</h3>
+                <img src="./assets/some_sun.png" alt="sunny">
+                <caption>some sun</caption>
+                <div class="row">
+                    <span class="high">27°</span>
+                    <span class="low">19°</span>
+                </div>
+            </div>
+            <div class="column">
+                <h3>Friday</h3>
+                <img src="./assets/some_clouds.png" alt="cloudy">
+                <caption>some clouds</caption>
+                <div class="row">
+                    <span class="high">21°</span>
+                    <span class="low">16°</span>
+                </div>
+            </div>
+            <div class="column" id="saturday">
+                <h3>Saturday</h3>
+                <img src="./assets/some_sun.png" alt="sunny">
+                <caption>some sun</caption>
+                <div class="row">
+                    <span class="high">26°</span>
+                    <span class="low">21°</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <img src="./assets/cookie.png" alt="cookie">
+            <div>
+                <h4>Stop! Cookie time</h4>
+                <p>
+                    We use cookies (sadly not the edible ones) to personalize <br>
+                    content and ads, to provide social media features and to <br>
+                    analyse our traffic.
+                    <a href="#">Read more...</a>
+                </p>
+            </div>
+            <button id="agree" onclick="hideCookies()">I Accept</button>
+    </footer>
+
+    <script src="./skript.js"></script>
+</body>
+</html>

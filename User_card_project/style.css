@@ -1,0 +1,31 @@
+* { 
+    background-color: whitesmoke;
+    border: green solid 2px;
+}
+body {
+    width: 800px;
+    height: 450px;
+}
+div.header {
+    width: 800px;
+    height: 150px;
+    background-color: blue;
+}
+h1 {
+    margin-left: 25px;
+}
+img {
+    border-radius: 50%;
+    margin: 3px;
+    border-color: brown;
+}
+.user {
+    border-radius: 50%;
+    width: 120px;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 3px, 3px, 3px gray; 
+}
+.location { 
+    border-radius: 50%;
+    width: 40px;
+}

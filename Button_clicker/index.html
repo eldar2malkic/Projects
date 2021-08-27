@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>dojonary</title>
+</head>
+<body>
+    <div class="search">
+        <h1>Dojonary</h1>
+        <input type="search" name="search_bar" id="search" placeholder="search">
+        <button class="login" onclick="logout(this)">Login</button>
+    </div> 
+    <div class="main">
+        <div class="col-1">
+            <div class="practitioner">
+                <div class="side-bar">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h5>Plural: <span class="ninja">ninjas</span></h5>
+                    <button class="like_practitioner" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="p-bar">
+                    <p>A practitioner skilled in the <br>
+                        <a href="#" class="japanese">Japanese</a>
+                        art of 
+                        <a href="#" class="ninjutsu">ninjutsu</a>
+                    </p>
+                </div>
+            </div>
+            <div class="programmer">
+                <div class="side-bar">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h5>Plural: <span class="ninja">ninjas</span></h5>
+                    <button class="like_practitioner" onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+                <div class="p-bar">
+                    <p>A
+                        <a href="#" class="programmer_h">programmer</a>
+                        who breaks <br>
+                        down problems with 
+                        <a href="#" class="zen">zen</a>-like <br>
+                        focus 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="define">
+                <h2 class="col-2-header">Dojonary is <br>
+                    defined by <span class="you">YOU</span></h2>
+                <button class="definition" onclick="hide(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="./skrypt.js"></script>
+</body>
+</html>
